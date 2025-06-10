@@ -148,7 +148,7 @@ if submitted:
 
     pred = model.predict(df_transformed)
     st.markdown(f"""
-    <div style='padding:20px; background-color:#219EBC; border-radius:10px; text-align:center'>
+    <div style='padding:20px; background-color:#DFF5E1; border-radius:10px; text-align:center'>
         <h2>💰 Perkiraan Harga Mobil:</h2>
         <h1 style='color:#219EBC;'>SAR {int(pred[0]):,}</h1>
     </div>
